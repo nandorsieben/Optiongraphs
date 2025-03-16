@@ -1,13 +1,5 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/python:3.10",  
-    "features": {
-        "ghcr.io/devcontainers/features/python:1": {
-            "version": "3.10"
-        },
-        "ghcr.io/devcontainers/features/apt-packages:1": {
-            "packages": "graphviz, libgraphviz-dev, pkg-config"
-        }
-    },
-    "postCreateCommand": "pip install --no-cache-dir --force-reinstall cpmpy pygraphviz && echo 'Setup complete!'"
-
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y graphviz libgraphviz-dev pkg-config && pip install pygraphviz cpmpy"
 }
+
