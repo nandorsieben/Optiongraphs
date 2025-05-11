@@ -2,7 +2,7 @@
 
 Companion web page for the article
 
-Isomorphism Theorems for Loopy Impartial Combinatorial Games
+Isomorphism Theorems for Impartial Combinatorial Games
 
 by
 
